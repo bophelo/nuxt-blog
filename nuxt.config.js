@@ -14,6 +14,9 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' }
     ]
   },
+  plugins: [
+    '@/plugins/mixins/pluralize'
+  ],
   /*
   ** Customize the progress bar color
   */
