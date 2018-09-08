@@ -17,6 +17,10 @@ module.exports = {
   plugins: [
     '@/plugins/mixins/pluralize',
     '@/plugins/scrollTo',
+    {
+      src: '@/plugins/vueSelect',
+      ssr: false
+    }
   ],
   /*
   ** Customize the progress bar color
