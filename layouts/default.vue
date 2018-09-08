@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <nuxt/>
   </div>
 </template>
@@ -19,6 +19,15 @@ html {
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 940px;
+  width: 100%;
+  align-items: center;
+  margin: 60px auto;
 }
 
 .button--green {
