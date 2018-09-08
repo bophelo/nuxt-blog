@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h3>{{ pluralize('post', 2) }} </h3>
+        <h3>{{ posts.length }} {{ pluralize('post', 2) }} </h3>
         <post v-for="post in posts" :key="post.id" :post="post"></post>
+        <a href="#" v-scroll-to="'body'">To Top</a>
     </div>
 </template>
 

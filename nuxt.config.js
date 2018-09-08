@@ -15,7 +15,8 @@ module.exports = {
     ]
   },
   plugins: [
-    '@/plugins/mixins/pluralize'
+    '@/plugins/mixins/pluralize',
+    '@/plugins/scrollTo',
   ],
   /*
   ** Customize the progress bar color
