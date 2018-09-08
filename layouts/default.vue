@@ -22,12 +22,34 @@ html {
 }
 
 .container {
+  min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   max-width: 940px;
   width: 100%;
-  align-items: center;
   margin: 60px auto;
+  line-height: 2em;
+}
+
+.title {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  display: block;
+  font-weight: 300;
+  color: #35495e;
+}
+
+.subtitle {
+  font-weight: 300;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 
 .button--green {
