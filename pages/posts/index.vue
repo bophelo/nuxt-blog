@@ -14,6 +14,9 @@
                 posts: []
             }
         },// if we prefix this method with async instead of returning a promise we can wait for this to finish and then return the data
+        head: {
+            title: 'Posts'
+        },
         components: {
             Post
         },
